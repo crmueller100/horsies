@@ -3,17 +3,17 @@ Determining the probability of winning horsies based on each card.
 
 # What is horsies?
 A betting game based on random probability. Each player gets 4 cards (2-Q) that correspond to horses. The goal is to have your horse cross the finish line. There are 11 horses labeled 2-12. Horses move based on that number that comes up when a pair of dice are rolled. Because certain numbers are more likely to come up on dice, the distance each horse has to move is commensurate with the probability of that value coming up on a pair of dice. Here are the distances:
-2 horse - 2 slots
-3 horse - 3 slots
-4 horse - 4 slots
-5 horse - 5 slots
-6 horse - 6 slots
-7 horse - 7 slots
-8 horse - 6 slots
-9 horse - 5 slots
-10 horse - 4 slots
-11 horse - 3 slots
-12 horse - 2 slots
+- 2 horse - 2 slots
+- 3 horse - 3 slots
+- 4 horse - 4 slots
+- 5 horse - 5 slots
+- 6 horse - 6 slots
+- 7 horse - 7 slots
+- 8 horse - 6 slots
+- 9 horse - 5 slots
+- 10 horse - 4 slots
+- 11 horse - 3 slots
+- 12 horse - 2 slots
 
 
 # Gameplay
