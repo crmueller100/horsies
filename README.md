@@ -1,8 +1,10 @@
 # Overview
-Determining the probability of winning horsies based on each card. 
+This is an analysis of the statistics and probability of a board game called Horsies. The goal of this analysis is to determine which of the 11 horses has the highest chance of winning.
 
-# What is horsies?
-A betting game based on random probability. Each player gets 4 cards (2-Q) that correspond to horses. The goal is to have your horse cross the finish line. There are 11 horses labeled 2-12. Horses move based on that number that comes up when a pair of dice are rolled. Because certain numbers are more likely to come up on dice, the distance each horse has to move is commensurate with the probability of that value coming up on a pair of dice. Here are the distances:
+# Setup
+Each player is dealt 4 cards (2-Q) that correspond to 11 horses (2-12). The goal is to have the horse that corresponds to one of your cards cross the finish line first. The horse that moves is determined by the number that comes up when a pair of dice are rolled. The distance each horse must move in order to secure a victory is proportional to the likelihood of those numbers appearing on a pair of dice, as certain numbers have a higher probability of occurrence.
+
+Here are the distances each horse must travel in order to win:
 - 2 horse - 2 slots
 - 3 horse - 3 slots
 - 4 horse - 4 slots
@@ -15,6 +17,12 @@ A betting game based on random probability. Each player gets 4 cards (2-Q) that 
 - 11 horse - 3 slots
 - 12 horse - 2 slots
 
+See the figure below for a graphical depiction of the board. When a horse makes it to the green dot at the end of its corresponding track, that horse wins and the game is over.
+
+<img src="board.png" alt="Board" width="400">
+
 
 # Gameplay
-Dice are rolled until 4 distinct rolls have occurred. Those 4 numbers indicate "dead" horses and they are removed from the race. After the dead horses are identified and removed from the race, the horses can move. A player will roll the dice until they roll a value of a non-dead horse. If they roll a non-dead horse, that horse moves up 1 slot and the next player rolls. However, if they roll that value of a dead horse, they need to pay into the pot. The first horse to "die" requires a $1 payout. The second horse rquires a $2 payout, etc...If a player is holding 2 cards of the same value of a dead horse, they need to pay double. The game ends when one horse reaches the end. The entire pot is distributed to the players who are holding that card. If Player 1 has 2 cards of the winning horse's value and Player 2 has 1 card, Player 1 gets 2/3 of the pot and Player 2 gets 1/3
+After each player is given 4 cards, dice are rolled until 4 distinct rolls have occurred. Those 4 numbers indicate "scratched" horses, which means they can not move for the remainder of the race. Keep track of the order of which the horses are scratched. 
+
+After the scratched horses are identified and removed from the race, the remaining horses can move. A player will roll the dice until they roll a value of an active horse. When they do, that horse move up 1 slot and the next player rolls. If a player rolls the value of a scratched horse, they need to pay into the pot and continue rolling until they roll the value of an active horse. Rolling the value of the first horse to get scratched requires a $1 payout from the dice roller. The second horse requires a $2 payout, etc...If a player is holding 2 cards of the same value of a scratched horse, they need to pay double. The game ends when one horse reaches the end. The entire pot is distributed to the players who are holding the card of the winning horse. If Player 1 has 2 cards of the winning horse's value and Player 2 has 1 card, Player 1 gets 2/3 of the pot and Player 2 gets 1/3.

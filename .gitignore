@@ -1,2 +1,4 @@
 env/
 __pycache__/
+*.pptx
+.DS_Store
