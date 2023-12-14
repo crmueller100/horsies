@@ -36,4 +36,4 @@ Similarly, we can see the percent that a players card will end up being a winner
 <img src="fig/probability_of_each_horse_winning.png" alt="probability_of_each_horse_winning" width="400">
 
 # Conclusion
-It has been shown that the horses with the highest chance of winning are at the ends of the track. The advantages of a shorter distance to travel in addition to the decreased likelihood of being scratched points to horses 2 and 12 being the optimal choice. 
+It has been shown that the horses with the highest chance of winning are at the ends of the track. The advantages of a shorter distance to travel in addition to the decreased likelihood of being scratched determines that horses 2 and 12 are the optimal choices.
