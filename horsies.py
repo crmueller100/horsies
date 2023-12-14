@@ -7,9 +7,7 @@ def main():
 
     number_of_races = 10000
 
-    for i in range (0,number_of_races):
-
-        # print('\nRunning Race #', i+1)
+    for _ in range (0,number_of_races):
         scratched_horses, winning_horse = race()
 
         # need -2 in index because of 0 based indexing and the first horse is labeled 2
