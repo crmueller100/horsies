@@ -31,7 +31,7 @@ After the scratched horses are identified and removed from the race, the remaini
 This figure shows the frequency of which horses scratched versus those that won. As expected, the scratched horses follow the probability distribution we would expect to see with rolling dice; namely, the most frequent horses to get scratched were those that were most probable to be rolled on dice.
 <img src="fig/frequency_of_winners_and_scratchers.png" alt="frequency_of_winners_and_scratchers" width="400">
 
-Similarly, we can see the percent that a players card will end up being a winner by simply calculating the $\text{\% chance of winning}$ as $\frac{\text{frequency of winners}}{\text{total trials}}$. 
+Similarly, we can see the probability that a players card will end up being a winner by simply calculating $\frac{\text{frequency of winners}}{\text{total trials}}$. 
 
 <img src="fig/probability_of_each_horse_winning.png" alt="probability_of_each_horse_winning" width="400">
 
