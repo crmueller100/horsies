@@ -19,7 +19,7 @@ Here are the distances each horse must travel in order to win:
 
 See the figure below for a graphical depiction of the board. When a horse makes it to the green dot at the end of its corresponding track, that horse wins and the game is over.
 
-<img src="board.png" alt="Board" width="400">
+<img src="fig/board.png" alt="Board" width="400">
 
 
 # Gameplay
